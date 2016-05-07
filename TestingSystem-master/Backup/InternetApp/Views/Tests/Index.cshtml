@@ -1,0 +1,13 @@
+﻿@model List<InternetApp.Models.ModelLogick.TestBlock>
+
+@{
+    ViewBag.Title = "Список тестов";
+}
+
+<h1>@ViewBag.Counter</h1>
+<h2>Существующие блоки тестов:</h2>
+
+@foreach(var test in Model)
+{
+    <h5>@test.Name</h5>
+}

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TestsModelStoreContainer">
+    <EntitySet Name="TestSet" EntityType="TestsModel.Store.TestSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="QuestionSet" EntityType="TestsModel.Store.QuestionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnswerSet" EntityType="TestsModel.Store.AnswerSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TestQuestion" Association="TestsModel.Store.TestQuestion">
+      <End Role="Test" EntitySet="TestSet" />
+      <End Role="Question" EntitySet="QuestionSet" />
+    </AssociationSet>
+    <AssociationSet Name="QuestionAnswer" Association="TestsModel.Store.QuestionAnswer">
+      <End Role="Question" EntitySet="QuestionSet" />
+      <End Role="Answer" EntitySet="AnswerSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TestSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BeginDate" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EndDate" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsPublic" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Test_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnswerSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsRight" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Question_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="TestQuestion">
+    <End Role="Test" Type="TestsModel.Store.TestSet" Multiplicity="1" />
+    <End Role="Question" Type="TestsModel.Store.QuestionSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="Test_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="QuestionAnswer">
+    <End Role="Question" Type="TestsModel.Store.QuestionSet" Multiplicity="1" />
+    <End Role="Answer" Type="TestsModel.Store.AnswerSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="Question_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

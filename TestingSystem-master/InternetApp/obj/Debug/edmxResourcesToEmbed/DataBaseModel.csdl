@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataBaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DataBaseModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TestBlockSet" EntityType="DataBaseModel.TestBlock" />
+    <EntitySet Name="TestSet" EntityType="DataBaseModel.Test" />
+    <EntitySet Name="QuestionSet" EntityType="DataBaseModel.Question" />
+    <EntitySet Name="AnswerSet" EntityType="DataBaseModel.Answer" />
+    <AssociationSet Name="TestBlockTest" Association="DataBaseModel.TestBlockTest">
+      <End Role="TestBlock" EntitySet="TestBlockSet" />
+      <End Role="Test" EntitySet="TestSet" />
+    </AssociationSet>
+    <AssociationSet Name="TestQuestion" Association="DataBaseModel.TestQuestion">
+      <End Role="Test" EntitySet="TestSet" />
+      <End Role="Question" EntitySet="QuestionSet" />
+    </AssociationSet>
+    <AssociationSet Name="QuestionAnswer" Association="DataBaseModel.QuestionAnswer">
+      <End Role="Question" EntitySet="QuestionSet" />
+      <End Role="Answer" EntitySet="AnswerSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TestBlock">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="DataBaseModel.TestBlockTest" FromRole="TestBlock" ToRole="Test" />
+  </EntityType>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BeginDate" Type="String" Nullable="false" />
+    <Property Name="EndDate" Type="String" Nullable="false" />
+    <Property Name="IsPublic" Type="Boolean" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="TestBlock" Relationship="DataBaseModel.TestBlockTest" FromRole="Test" ToRole="TestBlock" />
+    <NavigationProperty Name="Question" Relationship="DataBaseModel.TestQuestion" FromRole="Test" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsCheckedBuComputer" Type="Boolean" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="DataBaseModel.TestQuestion" FromRole="Question" ToRole="Test" />
+    <NavigationProperty Name="Answer" Relationship="DataBaseModel.QuestionAnswer" FromRole="Question" ToRole="Answer" />
+  </EntityType>
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsRight" Type="Boolean" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="DataBaseModel.QuestionAnswer" FromRole="Answer" ToRole="Question" />
+  </EntityType>
+  <Association Name="TestBlockTest">
+    <End Type="DataBaseModel.TestBlock" Role="TestBlock" Multiplicity="1" />
+    <End Type="DataBaseModel.Test" Role="Test" Multiplicity="*" />
+  </Association>
+  <Association Name="TestQuestion">
+    <End Type="DataBaseModel.Test" Role="Test" Multiplicity="1" />
+    <End Type="DataBaseModel.Question" Role="Question" Multiplicity="*" />
+  </Association>
+  <Association Name="QuestionAnswer">
+    <End Type="DataBaseModel.Question" Role="Question" Multiplicity="1" />
+    <End Type="DataBaseModel.Answer" Role="Answer" Multiplicity="*" />
+  </Association>
+</Schema>

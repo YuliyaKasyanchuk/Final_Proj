@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="TestsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="TestsModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TestSet" EntityType="TestsModel.Test" />
+    <EntitySet Name="QuestionSet" EntityType="TestsModel.Question" />
+    <EntitySet Name="AnswerSet" EntityType="TestsModel.Answer" />
+    <AssociationSet Name="TestQuestion" Association="TestsModel.TestQuestion">
+      <End Role="Test" EntitySet="TestSet" />
+      <End Role="Question" EntitySet="QuestionSet" />
+    </AssociationSet>
+    <AssociationSet Name="QuestionAnswer" Association="TestsModel.QuestionAnswer">
+      <End Role="Question" EntitySet="QuestionSet" />
+      <End Role="Answer" EntitySet="AnswerSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Test">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="BeginDate" Type="String" Nullable="false" />
+    <Property Name="EndDate" Type="String" Nullable="false" />
+    <Property Name="IsPublic" Type="String" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="TestsModel.TestQuestion" FromRole="Test" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" Nullable="false" />
+    <NavigationProperty Name="Test" Relationship="TestsModel.TestQuestion" FromRole="Question" ToRole="Test" />
+    <NavigationProperty Name="Answer" Relationship="TestsModel.QuestionAnswer" FromRole="Question" ToRole="Answer" />
+  </EntityType>
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" Nullable="false" />
+    <Property Name="IsRight" Type="String" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="TestsModel.QuestionAnswer" FromRole="Answer" ToRole="Question" />
+  </EntityType>
+  <Association Name="TestQuestion">
+    <End Type="TestsModel.Test" Role="Test" Multiplicity="1" />
+    <End Type="TestsModel.Question" Role="Question" Multiplicity="*" />
+  </Association>
+  <Association Name="QuestionAnswer">
+    <End Type="TestsModel.Question" Role="Question" Multiplicity="1" />
+    <End Type="TestsModel.Answer" Role="Answer" Multiplicity="*" />
+  </Association>
+</Schema>

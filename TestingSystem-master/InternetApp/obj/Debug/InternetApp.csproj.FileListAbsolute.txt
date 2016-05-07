@@ -1,0 +1,264 @@
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.dll.config
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.pdb
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Antlr3.Runtime.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.Infrastructure.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Spatial.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Helpers.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Mvc.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Optimization.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Razor.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebGrease.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.Data.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Helpers.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Mvc.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Razor.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.Data.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Spatial.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\WebMatrix.Data.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\System.Spatial.resources.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.pdb
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.dll.config
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\InternetApp.pdb
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Antlr3.Runtime.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Spatial.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Helpers.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Mvc.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Optimization.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Razor.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebGrease.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.Data.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Helpers.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Mvc.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Razor.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.Data.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\System.Spatial.xml
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\WebMatrix.Data.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\de\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\es\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\fr\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\it\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ja\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ko\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\ru\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hans\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\bin\zh-Hant\System.Spatial.resources.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.csprojResolveAssemblyReference.cache
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.dll
+E:\Программирование\asp.net mvc\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.pdb
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.SqlServer.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\bin\EntityFramework.SqlServer.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\InternetApp\obj\Debug\InternetApp.csprojResolveAssemblyReference.cache
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\InternetApp.dll.config
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\InternetApp.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\InternetApp.pdb
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Antlr3.Runtime.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\EntityFramework.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Spatial.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Helpers.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Mvc.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Optimization.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Razor.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\WebGrease.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\WebMatrix.Data.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\EntityFramework.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Newtonsoft.Json.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Helpers.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Mvc.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Razor.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\WebMatrix.Data.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\WebMatrix.WebData.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.Core.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Web.Http.OData.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Data.Edm.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\Microsoft.Data.OData.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\System.Spatial.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\de\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\es\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\fr\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\it\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ja\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ko\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\ru\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\obj\Debug\InternetApp.csprojResolveAssemblyReference.cache
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\obj\Debug\InternetApp.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\InternetApp\obj\Debug\InternetApp.pdb

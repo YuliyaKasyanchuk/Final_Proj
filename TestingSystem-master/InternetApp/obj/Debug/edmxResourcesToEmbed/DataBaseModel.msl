@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseModelContainer">
+    <EntitySetMapping Name="TestBlockSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.TestBlock)">
+        <MappingFragment StoreEntitySet="TestBlockSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Test)">
+        <MappingFragment StoreEntitySet="TestSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Question)">
+        <MappingFragment StoreEntitySet="QuestionSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IsCheckedBuComputer" ColumnName="IsCheckedBuComputer" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswerSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Answer)">
+        <MappingFragment StoreEntitySet="AnswerSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IsRight" ColumnName="IsRight" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="TestBlockTest" TypeName="DataBaseModel.TestBlockTest" StoreEntitySet="TestSet">
+      <EndProperty Name="TestBlock">
+        <ScalarProperty Name="Id" ColumnName="TestBlock_Id" />
+      </EndProperty>
+      <EndProperty Name="Test">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TestQuestion" TypeName="DataBaseModel.TestQuestion" StoreEntitySet="QuestionSet">
+      <EndProperty Name="Test">
+        <ScalarProperty Name="Id" ColumnName="Test_Id" />
+      </EndProperty>
+      <EndProperty Name="Question">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="QuestionAnswer" TypeName="DataBaseModel.QuestionAnswer" StoreEntitySet="AnswerSet">
+      <EndProperty Name="Question">
+        <ScalarProperty Name="Id" ColumnName="Question_Id" />
+      </EndProperty>
+      <EndProperty Name="Answer">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

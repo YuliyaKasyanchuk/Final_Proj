@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DataBaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DataBaseModelStoreContainer">
+    <EntitySet Name="TestBlockSet" EntityType="DataBaseModel.Store.TestBlockSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TestSet" EntityType="DataBaseModel.Store.TestSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="QuestionSet" EntityType="DataBaseModel.Store.QuestionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AnswerSet" EntityType="DataBaseModel.Store.AnswerSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TestBlockTest" Association="DataBaseModel.Store.TestBlockTest">
+      <End Role="TestBlock" EntitySet="TestBlockSet" />
+      <End Role="Test" EntitySet="TestSet" />
+    </AssociationSet>
+    <AssociationSet Name="TestQuestion" Association="DataBaseModel.Store.TestQuestion">
+      <End Role="Test" EntitySet="TestSet" />
+      <End Role="Question" EntitySet="QuestionSet" />
+    </AssociationSet>
+    <AssociationSet Name="QuestionAnswer" Association="DataBaseModel.Store.QuestionAnswer">
+      <End Role="Question" EntitySet="QuestionSet" />
+      <End Role="Answer" EntitySet="AnswerSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TestBlockSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TestSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BeginDate" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EndDate" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsPublic" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TestBlock_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsCheckedBuComputer" Type="bit" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Test_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AnswerSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsRight" Type="bit" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Question_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="TestBlockTest">
+    <End Role="TestBlock" Type="DataBaseModel.Store.TestBlockSet" Multiplicity="1" />
+    <End Role="Test" Type="DataBaseModel.Store.TestSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TestBlock">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Test">
+        <PropertyRef Name="TestBlock_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TestQuestion">
+    <End Role="Test" Type="DataBaseModel.Store.TestSet" Multiplicity="1" />
+    <End Role="Question" Type="DataBaseModel.Store.QuestionSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Test">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="Test_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="QuestionAnswer">
+    <End Role="Question" Type="DataBaseModel.Store.QuestionSet" Multiplicity="1" />
+    <End Role="Answer" Type="DataBaseModel.Store.AnswerSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="Question_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataBaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="DataBaseModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TestBlockSet" EntityType="DataBaseModel.TestBlock" />
+          <EntitySet Name="TestSet" EntityType="DataBaseModel.Test" />
+          <EntitySet Name="QuestionSet" EntityType="DataBaseModel.Question" />
+          <EntitySet Name="AnswerSet" EntityType="DataBaseModel.Answer" />
+          <AssociationSet Name="TestBlockTest" Association="DataBaseModel.TestBlockTest">
+            <End Role="TestBlock" EntitySet="TestBlockSet" />
+            <End Role="Test" EntitySet="TestSet" />
+          </AssociationSet>
+          <AssociationSet Name="TestQuestion" Association="DataBaseModel.TestQuestion">
+            <End Role="Test" EntitySet="TestSet" />
+            <End Role="Question" EntitySet="QuestionSet" />
+          </AssociationSet>
+          <AssociationSet Name="QuestionAnswer" Association="DataBaseModel.QuestionAnswer">
+            <End Role="Question" EntitySet="QuestionSet" />
+            <End Role="Answer" EntitySet="AnswerSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="TestBlock">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Test" Relationship="DataBaseModel.TestBlockTest" FromRole="TestBlock" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Test">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BeginDate" Type="String" Nullable="false" />
+          <Property Name="EndDate" Type="String" Nullable="false" />
+          <Property Name="IsPublic" Type="Boolean" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="TestBlock" Relationship="DataBaseModel.TestBlockTest" FromRole="Test" ToRole="TestBlock" />
+          <NavigationProperty Name="Question" Relationship="DataBaseModel.TestQuestion" FromRole="Test" ToRole="Question" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsCheckedBuComputer" Type="Boolean" Nullable="false" />
+          <Property Name="Text" Type="String" Nullable="false" />
+          <NavigationProperty Name="Test" Relationship="DataBaseModel.TestQuestion" FromRole="Question" ToRole="Test" />
+          <NavigationProperty Name="Answer" Relationship="DataBaseModel.QuestionAnswer" FromRole="Question" ToRole="Answer" />
+        </EntityType>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsRight" Type="Boolean" Nullable="false" />
+          <Property Name="Text" Type="String" Nullable="false" />
+          <NavigationProperty Name="Question" Relationship="DataBaseModel.QuestionAnswer" FromRole="Answer" ToRole="Question" />
+        </EntityType>
+        <Association Name="TestBlockTest">
+          <End Type="DataBaseModel.TestBlock" Role="TestBlock" Multiplicity="1" />
+          <End Type="DataBaseModel.Test" Role="Test" Multiplicity="*" />
+        </Association>
+        <Association Name="TestQuestion">
+          <End Type="DataBaseModel.Test" Role="Test" Multiplicity="1" />
+          <End Type="DataBaseModel.Question" Role="Question" Multiplicity="*" />
+        </Association>
+        <Association Name="QuestionAnswer">
+          <End Type="DataBaseModel.Question" Role="Question" Multiplicity="1" />
+          <End Type="DataBaseModel.Answer" Role="Answer" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseModelContainer">
+    <EntitySetMapping Name="TestBlockSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.TestBlock)">
+        <MappingFragment StoreEntitySet="TestBlockSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Test)">
+        <MappingFragment StoreEntitySet="TestSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Question)">
+        <MappingFragment StoreEntitySet="QuestionSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IsCheckedBuComputer" ColumnName="IsCheckedBuComputer" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswerSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DataBaseModel.Answer)">
+        <MappingFragment StoreEntitySet="AnswerSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IsRight" ColumnName="IsRight" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="TestBlockTest" TypeName="DataBaseModel.TestBlockTest" StoreEntitySet="TestSet">
+      <EndProperty Name="TestBlock">
+        <ScalarProperty Name="Id" ColumnName="TestBlock_Id" />
+      </EndProperty>
+      <EndProperty Name="Test">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TestQuestion" TypeName="DataBaseModel.TestQuestion" StoreEntitySet="QuestionSet">
+      <EndProperty Name="Test">
+        <ScalarProperty Name="Id" ColumnName="Test_Id" />
+      </EndProperty>
+      <EndProperty Name="Question">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="QuestionAnswer" TypeName="DataBaseModel.QuestionAnswer" StoreEntitySet="AnswerSet">
+      <EndProperty Name="Question">
+        <ScalarProperty Name="Id" ColumnName="Question_Id" />
+      </EndProperty>
+      <EndProperty Name="Answer">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

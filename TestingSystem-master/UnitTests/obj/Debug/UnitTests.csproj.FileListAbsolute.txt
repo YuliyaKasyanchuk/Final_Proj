@@ -1,0 +1,70 @@
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\UnitTests.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\UnitTests.pdb
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\nunit.framework.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\nunit.framework.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\obj\Debug\UnitTests.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\obj\Debug\UnitTests.pdb
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\UnitTests.dll.config
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\InternetApp.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\EntityFramework.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Web.Optimization.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.AspNet.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\Newtonsoft.Json.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.Core.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.dll
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\InternetApp.pdb
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\EntityFramework.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.AspNet.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\Newtonsoft.Json.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.Core.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\asp.net\TestingSystem-master\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\InternetApp.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\InternetApp.pdb
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Юля\Documents\Visual Studio 2013\Projects\TestingSystem-master\UnitTests\obj\Debug\UnitTests.pdb
